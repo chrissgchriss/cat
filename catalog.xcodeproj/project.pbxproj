@@ -22,6 +22,8 @@
 		7DE0F6961A9974D000E14A68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE0F6751A9974D000E14A68 /* UIKit.framework */; };
 		7DE0F69E1A9974D000E14A68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DE0F69C1A9974D000E14A68 /* InfoPlist.strings */; };
 		7DE0F6A01A9974D000E14A68 /* catalogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE0F69F1A9974D000E14A68 /* catalogTests.m */; };
+		7DE0F6AB1A9977E300E14A68 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE0F6AA1A9977E300E14A68 /* Product.m */; };
+		7DE0F6AE1A9992FC00E14A68 /* DBAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE0F6AD1A9992FC00E14A68 /* DBAccess.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		7DE0F69B1A9974D000E14A68 /* catalogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "catalogTests-Info.plist"; sourceTree = "<group>"; };
 		7DE0F69D1A9974D000E14A68 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DE0F69F1A9974D000E14A68 /* catalogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = catalogTests.m; sourceTree = "<group>"; };
+		7DE0F6A91A9977E300E14A68 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		7DE0F6AA1A9977E300E14A68 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		7DE0F6AC1A9992FC00E14A68 /* DBAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBAccess.h; sourceTree = "<group>"; };
+		7DE0F6AD1A9992FC00E14A68 /* DBAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBAccess.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,10 @@
 				7DE0F68A1A9974D000E14A68 /* DetailViewController.m */,
 				7DE0F68C1A9974D000E14A68 /* Images.xcassets */,
 				7DE0F6781A9974D000E14A68 /* Supporting Files */,
+				7DE0F6A91A9977E300E14A68 /* Product.h */,
+				7DE0F6AA1A9977E300E14A68 /* Product.m */,
+				7DE0F6AC1A9992FC00E14A68 /* DBAccess.h */,
+				7DE0F6AD1A9992FC00E14A68 /* DBAccess.m */,
 			);
 			path = catalog;
 			sourceTree = "<group>";
@@ -255,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DE0F6821A9974D000E14A68 /* AppDelegate.m in Sources */,
+				7DE0F6AB1A9977E300E14A68 /* Product.m in Sources */,
 				7DE0F6881A9974D000E14A68 /* MasterViewController.m in Sources */,
+				7DE0F6AE1A9992FC00E14A68 /* DBAccess.m in Sources */,
 				7DE0F67E1A9974D000E14A68 /* main.m in Sources */,
 				7DE0F68B1A9974D000E14A68 /* DetailViewController.m in Sources */,
 			);
